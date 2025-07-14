@@ -6,6 +6,8 @@ import com.swagLabs.Qa.Base.BaseClass;
 
 public class InventoryPage extends BaseClass{
 
+	// Inventory Page Locators and WebElements
+	
 	private static By addTocart = By.cssSelector("button[class='btn_primary btn_inventory']");
 
 	private static By openMenu = By.cssSelector("#menu_button_container > div > div:nth-child(3) > div > button");
