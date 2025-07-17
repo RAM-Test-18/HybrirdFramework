@@ -3,6 +3,9 @@ package com.swagLabs.Qa.PageObjects;
 import org.openqa.selenium.By;
 
 public class LoginPage extends InventoryPage{
+	
+	
+	// Login Page WebElement and Locators
 
 	private static String errorText  = "Epic sadface: Username and password do not match any user in this service";
 	

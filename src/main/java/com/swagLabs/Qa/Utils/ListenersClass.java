@@ -18,7 +18,7 @@ public class ListenersClass implements ITestListener {
 
 	public void onTestSuccess(ITestResult result) 
 	{
-		System.out.println(String.valueOf(Input.timeStamp()) + " : { " + result.getName() + " }\n");
+		//System.out.println(String.valueOf(Input.timeStamp()) + " : { " + result.getName() + " }\n");
 		System.out.println("========== SUCCESSFULLY FINISHED ==========");
 	}
 
@@ -27,7 +27,7 @@ public class ListenersClass implements ITestListener {
 		System.out.println(String.valueOf(Input.timeStamp()) + " : { " + result.getName() + " }\n");
 		System.out.println("========== TEST FAILED ==========");
 		byte[] srcFinal = ((TakesScreenshot)Input.getDriver()).getScreenshotAs(OutputType.BYTES);
-		ChainTestListener.embed(srcFinal, "image/png");
+		ChainTestListener.embed(srcFinal.toString()+Input.timeStamp(), "image/png");
 	}
 
 	public void onTestSkipped(ITestResult result) 

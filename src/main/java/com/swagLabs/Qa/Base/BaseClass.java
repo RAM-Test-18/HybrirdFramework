@@ -7,6 +7,8 @@ public class BaseClass {
 
 	
 	
+	// Common Element to Use 
+	
 	protected static boolean g_Task_Passed =true;
 	
 	protected static boolean g_Task_Failed =false;
