@@ -7,13 +7,6 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.swagLabs.Qa.TestCases.CartClass">
-        <methods>
-          <include name="initialzation"/>
-          <include name="adding_Items_To_cart"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.swagLabs.Qa.TestCases.CartClass -->
       <class name="com.swagLabs.Qa.TestCases.LoginClass">
         <methods>
           <include name="initialzation"/>
@@ -21,6 +14,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.swagLabs.Qa.TestCases.LoginClass -->
+      <class name="com.swagLabs.Qa.TestCases.CartClass">
+        <methods>
+          <include name="initialzation"/>
+          <include name="adding_Items_To_cart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.swagLabs.Qa.TestCases.CartClass -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

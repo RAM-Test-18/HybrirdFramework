@@ -21,7 +21,7 @@ public class BaseClass {
 	
 	protected static boolean EXCEL_DIRECTORY = Input.setExcelPath(USER_DIR+EXCEL_PATH);
 
-	protected static String inventoryPageTitle ="Swag Labs123";
+	protected static String inventoryPageTitle ="Swag Labs";
 	
 	protected static String thanksForOrderText = "THANK YOU FOR YOUR ORDER";
 	

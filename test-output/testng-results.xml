@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-13T16:32:20 IST" name="Suite" finished-at="2025-07-13T16:33:20 IST" duration-ms="60290">
+  <suite started-at="2025-07-19T05:03:05 IST" name="Suite" finished-at="2025-07-19T05:04:09 IST" duration-ms="64598">
     <groups>
     </groups>
-    <test started-at="2025-07-13T16:32:20 IST" name="Test" finished-at="2025-07-13T16:33:20 IST" duration-ms="60290">
+    <test started-at="2025-07-19T05:03:05 IST" name="Test" finished-at="2025-07-19T05:04:09 IST" duration-ms="64598">
       <class name="com.swagLabs.Qa.TestCases.CartClass">
-        <test-method is-config="true" signature="initialzation()[pri:0, instance:com.swagLabs.Qa.TestCases.CartClass@3935e9a8]" started-at="2025-07-13T16:33:04 IST" name="initialzation" finished-at="2025-07-13T16:33:10 IST" duration-ms="5514" status="PASS">
+        <test-method is-config="true" signature="initialzation()[pri:0, instance:com.swagLabs.Qa.TestCases.CartClass@5b56b654]" started-at="2025-07-19T05:03:50 IST" name="initialzation" finished-at="2025-07-19T05:03:56 IST" duration-ms="5459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialzation -->
-        <test-method signature="adding_Items_To_cart()[pri:0, instance:com.swagLabs.Qa.TestCases.CartClass@3935e9a8]" started-at="2025-07-13T16:33:10 IST" name="adding_Items_To_cart" finished-at="2025-07-13T16:33:10 IST" duration-ms="25" status="FAIL">
+        <test-method signature="adding_Items_To_cart()[pri:0, instance:com.swagLabs.Qa.TestCases.CartClass@5b56b654]" started-at="2025-07-19T05:03:56 IST" name="adding_Items_To_cart" finished-at="2025-07-19T05:03:56 IST" duration-ms="31" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -22,7 +22,7 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
-at com.swagLabs.Qa.TestCases.CartClass.adding_Items_To_cart(CartClass.java:40)
+at com.swagLabs.Qa.TestCases.CartClass.adding_Items_To_cart(CartClass.java:41)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -55,29 +55,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adding_Items_To_cart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.Qa.TestCases.CartClass@3935e9a8]" started-at="2025-07-13T16:33:10 IST" name="tearDown" finished-at="2025-07-13T16:33:10 IST" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.Qa.TestCases.CartClass@5b56b654]" started-at="2025-07-19T05:03:56 IST" name="tearDown" finished-at="2025-07-19T05:03:56 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialzation()[pri:0, instance:com.swagLabs.Qa.TestCases.CartClass@3935e9a8]" started-at="2025-07-13T16:33:10 IST" name="initialzation" finished-at="2025-07-13T16:33:16 IST" duration-ms="5806" status="PASS">
+        <test-method is-config="true" signature="initialzation()[pri:0, instance:com.swagLabs.Qa.TestCases.CartClass@5b56b654]" started-at="2025-07-19T05:03:56 IST" name="initialzation" finished-at="2025-07-19T05:04:02 IST" duration-ms="5882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialzation -->
-        <test-method signature="perfrom_Checkout_For_Added_Items()[pri:1, instance:com.swagLabs.Qa.TestCases.CartClass@3935e9a8]" started-at="2025-07-13T16:33:16 IST" name="perfrom_Checkout_For_Added_Items" finished-at="2025-07-13T16:33:20 IST" duration-ms="3758" status="PASS">
+        <test-method signature="perfrom_Checkout_For_Added_Items()[pri:1, instance:com.swagLabs.Qa.TestCases.CartClass@5b56b654]" started-at="2025-07-19T05:04:02 IST" name="perfrom_Checkout_For_Added_Items" finished-at="2025-07-19T05:04:09 IST" duration-ms="6933" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- perfrom_Checkout_For_Added_Items -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.Qa.TestCases.CartClass@3935e9a8]" started-at="2025-07-13T16:33:20 IST" name="tearDown" finished-at="2025-07-13T16:33:20 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.Qa.TestCases.CartClass@5b56b654]" started-at="2025-07-19T05:04:09 IST" name="tearDown" finished-at="2025-07-19T05:04:09 IST" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.swagLabs.Qa.TestCases.CartClass -->
       <class name="com.swagLabs.Qa.TestCases.LoginClass">
-        <test-method is-config="true" signature="initialzation()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3c4bc9fc]" started-at="2025-07-13T16:32:20 IST" name="initialzation" finished-at="2025-07-13T16:32:25 IST" duration-ms="4983" status="PASS">
+        <test-method is-config="true" signature="initialzation()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3569edd5]" started-at="2025-07-19T05:03:05 IST" name="initialzation" finished-at="2025-07-19T05:03:11 IST" duration-ms="5952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialzation -->
-        <test-method signature="login_Into_Application_With_Valid_Creds()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3c4bc9fc]" started-at="2025-07-13T16:32:25 IST" name="login_Into_Application_With_Valid_Creds" finished-at="2025-07-13T16:32:30 IST" duration-ms="5224" status="FAIL">
+        <test-method signature="login_Into_Application_With_Valid_Creds()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3569edd5]" started-at="2025-07-19T05:03:11 IST" name="login_Into_Application_With_Valid_Creds" finished-at="2025-07-19T05:03:17 IST" duration-ms="5919" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -121,43 +121,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_Into_Application_With_Valid_Creds -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3c4bc9fc]" started-at="2025-07-13T16:32:30 IST" name="tearDown" finished-at="2025-07-13T16:32:31 IST" duration-ms="433" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3569edd5]" started-at="2025-07-19T05:03:17 IST" name="tearDown" finished-at="2025-07-19T05:03:18 IST" duration-ms="607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialzation()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3c4bc9fc]" started-at="2025-07-13T16:32:31 IST" name="initialzation" finished-at="2025-07-13T16:32:36 IST" duration-ms="5281" status="PASS">
+        <test-method is-config="true" signature="initialzation()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3569edd5]" started-at="2025-07-19T05:03:18 IST" name="initialzation" finished-at="2025-07-19T05:03:22 IST" duration-ms="4375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialzation -->
-        <test-method signature="login_Into_Application_With_InValid_Creds()[pri:1, instance:com.swagLabs.Qa.TestCases.LoginClass@3c4bc9fc]" started-at="2025-07-13T16:32:36 IST" name="login_Into_Application_With_InValid_Creds" finished-at="2025-07-13T16:32:43 IST" duration-ms="6659" status="PASS">
+        <test-method signature="login_Into_Application_With_InValid_Creds()[pri:1, instance:com.swagLabs.Qa.TestCases.LoginClass@3569edd5]" started-at="2025-07-19T05:03:22 IST" name="login_Into_Application_With_InValid_Creds" finished-at="2025-07-19T05:03:29 IST" duration-ms="6790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_Into_Application_With_InValid_Creds -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3c4bc9fc]" started-at="2025-07-13T16:32:43 IST" name="tearDown" finished-at="2025-07-13T16:32:43 IST" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3569edd5]" started-at="2025-07-19T05:03:29 IST" name="tearDown" finished-at="2025-07-19T05:03:29 IST" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialzation()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3c4bc9fc]" started-at="2025-07-13T16:32:43 IST" name="initialzation" finished-at="2025-07-13T16:32:48 IST" duration-ms="4318" status="PASS">
+        <test-method is-config="true" signature="initialzation()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3569edd5]" started-at="2025-07-19T05:03:29 IST" name="initialzation" finished-at="2025-07-19T05:03:34 IST" duration-ms="4187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialzation -->
-        <test-method signature="login_Into_Application_With_Only_UserName()[pri:2, instance:com.swagLabs.Qa.TestCases.LoginClass@3c4bc9fc]" started-at="2025-07-13T16:32:48 IST" name="login_Into_Application_With_Only_UserName" finished-at="2025-07-13T16:32:53 IST" duration-ms="5361" status="PASS">
+        <test-method signature="login_Into_Application_With_Only_UserName()[pri:2, instance:com.swagLabs.Qa.TestCases.LoginClass@3569edd5]" started-at="2025-07-19T05:03:34 IST" name="login_Into_Application_With_Only_UserName" finished-at="2025-07-19T05:03:39 IST" duration-ms="5297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_Into_Application_With_Only_UserName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3c4bc9fc]" started-at="2025-07-13T16:32:53 IST" name="tearDown" finished-at="2025-07-13T16:32:53 IST" duration-ms="340" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3569edd5]" started-at="2025-07-19T05:03:39 IST" name="tearDown" finished-at="2025-07-19T05:03:39 IST" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialzation()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3c4bc9fc]" started-at="2025-07-13T16:32:53 IST" name="initialzation" finished-at="2025-07-13T16:32:58 IST" duration-ms="5207" status="PASS">
+        <test-method is-config="true" signature="initialzation()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3569edd5]" started-at="2025-07-19T05:03:39 IST" name="initialzation" finished-at="2025-07-19T05:03:45 IST" duration-ms="5586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialzation -->
-        <test-method signature="login_Into_Application_With_Only_Password()[pri:3, instance:com.swagLabs.Qa.TestCases.LoginClass@3c4bc9fc]" started-at="2025-07-13T16:32:58 IST" name="login_Into_Application_With_Only_Password" finished-at="2025-07-13T16:33:04 IST" duration-ms="5332" status="PASS">
+        <test-method signature="login_Into_Application_With_Only_Password()[pri:3, instance:com.swagLabs.Qa.TestCases.LoginClass@3569edd5]" started-at="2025-07-19T05:03:45 IST" name="login_Into_Application_With_Only_Password" finished-at="2025-07-19T05:03:50 IST" duration-ms="5456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_Into_Application_With_Only_Password -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3c4bc9fc]" started-at="2025-07-13T16:33:04 IST" name="tearDown" finished-at="2025-07-13T16:33:04 IST" duration-ms="376" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.swagLabs.Qa.TestCases.LoginClass@3569edd5]" started-at="2025-07-19T05:03:50 IST" name="tearDown" finished-at="2025-07-19T05:03:50 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

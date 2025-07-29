@@ -155,26 +155,6 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.swagLabs.Qa.TestCases.CartClass</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="adding_Items_To_cart">
-                  </a> <!-- adding_Items_To_cart -->
-                  <span class="method-name">adding_Items_To_cart</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.swagLabs.Qa.TestCases.CartClass.adding_Items_To_cart(CartClass.java:40)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">com.swagLabs.Qa.TestCases.LoginClass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -192,21 +172,26 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.swagLabs.Qa.TestCases.CartClass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="perfrom_Checkout_For_Added_Items">
-                  </a> <!-- perfrom_Checkout_For_Added_Items -->
-                  <span class="method-name">perfrom_Checkout_For_Added_Items</span>
+                  <a name="adding_Items_To_cart">
+                  </a> <!-- adding_Items_To_cart -->
+                  <span class="method-name">adding_Items_To_cart</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.swagLabs.Qa.TestCases.CartClass.adding_Items_To_cart(CartClass.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -232,6 +217,21 @@
                   <a name="login_Into_Application_With_Only_UserName">
                   </a> <!-- login_Into_Application_With_Only_UserName -->
                   <span class="method-name">login_Into_Application_With_Only_UserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.swagLabs.Qa.TestCases.CartClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="perfrom_Checkout_For_Added_Items">
+                  </a> <!-- perfrom_Checkout_For_Added_Items -->
+                  <span class="method-name">perfrom_Checkout_For_Added_Items</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -295,34 +295,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login_Into_Application_With_InValid_Creds')
-data.setCell(0, 2, 'com.swagLabs.Qa.TestCases.LoginClass')
-data.setCell(0, 3, 6659);
+data.setCell(0, 1, 'perfrom_Checkout_For_Added_Items')
+data.setCell(0, 2, 'com.swagLabs.Qa.TestCases.CartClass')
+data.setCell(0, 3, 6933);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'login_Into_Application_With_Only_UserName')
+data.setCell(1, 1, 'login_Into_Application_With_InValid_Creds')
 data.setCell(1, 2, 'com.swagLabs.Qa.TestCases.LoginClass')
-data.setCell(1, 3, 5361);
+data.setCell(1, 3, 6790);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'login_Into_Application_With_Only_Password')
+data.setCell(2, 1, 'login_Into_Application_With_Valid_Creds')
 data.setCell(2, 2, 'com.swagLabs.Qa.TestCases.LoginClass')
-data.setCell(2, 3, 5332);
+data.setCell(2, 3, 5919);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'login_Into_Application_With_Valid_Creds')
+data.setCell(3, 1, 'login_Into_Application_With_Only_Password')
 data.setCell(3, 2, 'com.swagLabs.Qa.TestCases.LoginClass')
-data.setCell(3, 3, 5224);
+data.setCell(3, 3, 5456);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'perfrom_Checkout_For_Added_Items')
-data.setCell(4, 2, 'com.swagLabs.Qa.TestCases.CartClass')
-data.setCell(4, 3, 3758);
+data.setCell(4, 1, 'login_Into_Application_With_Only_UserName')
+data.setCell(4, 2, 'com.swagLabs.Qa.TestCases.LoginClass')
+data.setCell(4, 3, 5297);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'adding_Items_To_cart')
 data.setCell(5, 2, 'com.swagLabs.Qa.TestCases.CartClass')
-data.setCell(5, 3, 25);
+data.setCell(5, 3, 31);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -357,76 +357,76 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">login_Into_Application_With_Valid_Creds</span>
-                <span class="method-start">4985 ms</span>
+                <span class="method-start">5953 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10861 ms</span>
+                <span class="method-start">12514 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initialzation</span>
-                <span class="method-start">11308 ms</span>
+                <span class="method-start">13124 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_Into_Application_With_InValid_Creds</span>
-                <span class="method-start">16589 ms</span>
+                <span class="method-start">17499 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23254 ms</span>
+                <span class="method-start">24296 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initialzation</span>
-                <span class="method-start">23581 ms</span>
+                <span class="method-start">24576 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_Into_Application_With_Only_UserName</span>
-                <span class="method-start">27899 ms</span>
+                <span class="method-start">28763 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">33270 ms</span>
+                <span class="method-start">34066 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initialzation</span>
-                <span class="method-start">33615 ms</span>
+                <span class="method-start">34280 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_Into_Application_With_Only_Password</span>
-                <span class="method-start">38822 ms</span>
+                <span class="method-start">39869 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">44163 ms</span>
+                <span class="method-start">45339 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.swagLabs.Qa.TestCases.CartClass</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initialzation</span>
-                <span class="method-start">44541 ms</span>
+                <span class="method-start">45611 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">adding_Items_To_cart</span>
-                <span class="method-start">50055 ms</span>
+                <span class="method-start">51070 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">50299 ms</span>
+                <span class="method-start">51297 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initialzation</span>
-                <span class="method-start">50520 ms</span>
+                <span class="method-start">51459 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">perfrom_Checkout_For_Added_Items</span>
-                <span class="method-start">56326 ms</span>
+                <span class="method-start">57341 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">60084 ms</span>
+                <span class="method-start">64278 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-  <title>chaintest</title>
+  <title>Automation_SwagLabs</title>
     <link href="https://cdn.jsdelivr.net/gh/anshooarora/chaintest@976b9706b4d752a6262a041a68a6ea08012e0fcf/cdn/simple/version/chaintest-pkg.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <style></style>
@@ -19,9 +19,9 @@
         <span class="ms-3 fs-6">Swag Labs Automation</span>
       </div>
       <div>
-        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 1m 12s</span>
-        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-07-13 04:54:35 PM</span>
-        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-07-13 04:55:47 PM</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 1m 33s</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-07-19 05:10:39 AM</span>
+        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-07-19 05:12:12 AM</span>
           <button role="button" id="sys-info" class="btn btn-outline-primary smaller" title="View System Info">
             <i class="bi bi-pc-display-horizontal"></i></button>
         <button role="button" id="shortcuts" class="btn btn-outline-primary smaller" title="Shortcuts">
@@ -46,8 +46,8 @@
                 </div>
               </div>
               <div class="card-footer small">
-                <span id="sp1">0</span> Passed,
-                <span id="sf1">1</span> Failed,
+                <span id="sp1">1</span> Passed,
+                <span id="sf1">0</span> Failed,
                 <span id="ss1">0</span> Skipped
               </div>
             </div>
@@ -63,8 +63,8 @@
                 </div>
               </div>
               <div class="card-footer small">
-                <span id="sp2">0</span> Passed,
-                <span id="sf2">2</span> Failed,
+                <span id="sp2">2</span> Passed,
+                <span id="sf2">0</span> Failed,
                 <span id="ss2">0</span> Skipped
               </div>
             </div>
@@ -80,8 +80,8 @@
                   </div>
                 </div>
                 <div class="card-footer small">
-                  <span id="sp3">4</span> Passed,
-                  <span id="sf3">2</span> Failed,
+                  <span id="sp3">6</span> Passed,
+                  <span id="sf3">0</span> Failed,
                   <span id="ss3">0</span> Skipped
                 </div>
               </div>
@@ -108,92 +108,50 @@
         </div>
       </div>
     </div>
-      <div class="test-container failed">
+      <div class="test-container passed">
         <div class="container">
           <div class="row">
             <div class="col-4">
-              <h6 class="mb-3 testname fs-6 failed">Suite</h6>
+              <h6 class="mb-3 testname fs-6 passed">Suite</h6>
               <div class="small">
-                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 1m 10s</span>
+                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 1m 31s</span>
                 <span class="badge text-bg-info"><i class="bi bi-clock me-1"></i>
-                  2025-07-13 04:54:35 PM</span>
+                  2025-07-19 05:10:40 AM</span>
                 <span class="badge text-bg-warning"><i class="bi bi-clock me-1"></i>
-                  2025-07-13 04:55:46 PM</span>
+                  2025-07-19 05:12:11 AM</span>
               </div>
               
             </div>
             <div class="col-8">
-                <div class="card mb-3 result failed">
+                <div class="card mb-3 result passed">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
                       <div>
-                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                          <i class="bi bi-check-circle-fill text-success"></i>
                         <span class="fs-6 ms-2">com.swagLabs.Qa.TestCases.LoginClass</span>
                       </div>
                       <div>
-                        <span class="badge text-dark bg-light">45s</span>
+                        <span class="badge text-dark bg-light">51s</span>
                       </div>
                     </div>
                     
   <div class="mt-3 border-top">
-    <div class="leaf failed pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-danger"></i>
-          <span class="fs-6 ms-2">login_Into_Application_With_Valid_Creds </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">login_Into_Application_With_Valid_Creds <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">5s</span>
+          <span class="badge text-dark bg-light">7s</span>
         </div>
       </div>
       <p class="desc"></p>
-        <pre class="py-2 mt-2 mb-4">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.swagLabs.Qa.TestCases.LoginClass.login_Into_Application_With_Valid_Creds(LoginClass.java:44)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre>
-        <div class="mt-3 logs ">
+        <div class="mt-3 logs d-none">
           <pre class="pb-0">
 Going to Enter Valid Login Details
-Unable to find page title: Swag Labs
+Page Title is Matched :Swag Labs
           </pre>
-        </div>
-        <div class="row mt-3">
-            <div class="embed col-2 mb-1">
-              <img src="resources/02da7d40-c0e1-41b4-ae41-7f1fe5d2c8cf.png" />
-            </div>
         </div>
     </div>
     <div class="leaf passed pb-1 logs-toggle">
@@ -254,84 +212,59 @@ Error Message for Invalid Cred's : Epic sadface: Username is required
 
                   </div>
                 </div>
-                <div class="card mb-3 result failed">
+                <div class="card mb-3 result passed">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
                       <div>
-                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                          <i class="bi bi-check-circle-fill text-success"></i>
                         <span class="fs-6 ms-2">com.swagLabs.Qa.TestCases.CartClass</span>
                       </div>
                       <div>
-                        <span class="badge text-dark bg-light">24s</span>
+                        <span class="badge text-dark bg-light">40s</span>
                       </div>
                     </div>
                     
   <div class="mt-3 border-top">
-    <div class="leaf failed pb-1 ">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-exclamation-octagon-fill text-danger"></i>
-          <span class="fs-6 ms-2">adding_Items_To_cart </span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">212ms</span>
-        </div>
-      </div>
-      <p class="desc"></p>
-        <pre class="py-2 mt-2 mb-4">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at com.swagLabs.Qa.TestCases.CartClass.adding_Items_To_cart(CartClass.java:40)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre>
-        <div class="row mt-3">
-            <div class="embed col-2 mb-1">
-              <img src="resources/224ff1cb-1018-4734-97d2-46045d1ab0aa.png" />
-            </div>
-        </div>
-    </div>
-    <div class="leaf passed pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="fs-6 ms-2">perfrom_Checkout_For_Added_Items </span>
+          <span class="fs-6 ms-2">adding_Items_To_cart <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">6s</span>
+          <span class="badge text-dark bg-light">9s</span>
         </div>
       </div>
       <p class="desc"></p>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+Going to Enter Valid Login Username and Password.
+Page Title is Matched : Swag Labs
+Going to Add 6 Items To Cart.
+Number of Items Added to cart : 6
+Going to remove all 6 items from Shopping Cart.
+Number of Items Removed from  cart : 6
+          </pre>
+        </div>
+    </div>
+    <div class="leaf passed pb-1 logs-toggle">
+      <div class="d-flex justify-content-between mt-3">
+        <div>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">perfrom_Checkout_For_Added_Items <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
+        </div>
+        <div>
+          <span class="badge text-dark bg-light">5s</span>
+        </div>
+      </div>
+      <p class="desc"></p>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+Going to Enter Valid Login Username and Password.
+Going to perform Checkout.
+Your order has been dispatched, and will arrive just as fast as the pony can get there!
+          </pre>
+        </div>
     </div>
   </div>
 
@@ -345,22 +278,22 @@ Error Message for Invalid Cred's : Epic sadface: Username is required
   </div>
 
   <script>
-    const stats1Annotation = {'total': 1, 'passed': 0};
+    const stats1Annotation = {'total': 1, 'passed': 1};
     const stats1 = [
-      { result: 'Passed', count: 0, bg: 'rgb(140, 197, 83)' },
-      { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
+      { result: 'Passed', count: 1, bg: 'rgb(140, 197, 83)' },
+      { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
       { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
     ];
-      const stats2Annotation = {'total': 2, 'passed': 0};
+      const stats2Annotation = {'total': 2, 'passed': 2};
       const stats2 = [
-        { result: 'Passed', count: 0, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 2, bg: 'rgb(233,80,113)' },
+        { result: 'Passed', count: 2, bg: 'rgb(140, 197, 83)' },
+        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
       ];
-      const stats3Annotation = {'total': 6, 'passed': 4};
+      const stats3Annotation = {'total': 6, 'passed': 6};
       const stats3 = [
-        { result: 'Passed', count: 4, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 2, bg: 'rgb(233,80,113)' },
+        { result: 'Passed', count: 6, bg: 'rgb(140, 197, 83)' },
+        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
       ];
      
