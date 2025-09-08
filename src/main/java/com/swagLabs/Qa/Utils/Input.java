@@ -1,11 +1,16 @@
 package com.swagLabs.Qa.Utils;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -36,6 +41,8 @@ public class Input {
 	private static WebDriverWait mwait;
 
 	protected static String mainWindow;
+	
+	protected static String m_curDir = System.getProperty("user.dir");
 
 	public static String timeStamp() {
 		Date date = new Date();
@@ -178,9 +185,18 @@ public class Input {
 		return cellData;
 	}
 
-	public static void takeScreenShot(String methodName) {
-
-	}
+	public static String takeScreenshot(String method_name) {
+	    File scrFile = (File)((TakesScreenshot)Input.getDriver()).getScreenshotAs(OutputType.FILE);
+	    String _path = String.valueOf((String.valueOf(Input.m_curDir) + "/screenshots/")) + method_name + "_" + Input.timeStamp() + 
+	      "_" + System.currentTimeMillis() + ".png";
+	    File destination = new File(_path);
+	    try {
+	      FileUtils.copyFile(scrFile, destination);
+	    } catch (IOException e) {
+	      System.out.println("Capture Failed " + e.getMessage());
+	    } 
+	    return _path;
+	  }
 
 	public static void flowsheet_Actions(By selectPatientFS, By moveToStatusBar, By selectAction)
 			throws InterruptedException {

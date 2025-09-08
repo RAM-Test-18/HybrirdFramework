@@ -61,6 +61,18 @@ public class Excel {
 		return sheet.getRow(0).getLastCellNum();
 	}
 	
+	public static Object[][] excelData(int sheetIndex, int rowFlag, int colFlag) throws Exception {
+	    excelData = new Excel(_excelPath);
+	    int rowCount = getRowCount(sheetIndex);
+	    int colCount = getColCount(sheetIndex);
+	    Object[][] data = new Object[rowCount - rowFlag][colCount - colFlag];
+	    for (int row = rowFlag; row < rowCount; row++) {
+	      for (int col = colFlag; col < colCount; col++)
+	        data[row - rowFlag][col - colFlag] = getDataFromExcel(sheetIndex, row, col); 
+	    } 
+	    return data;
+	  }
+	
 	
 
 }
